@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #f5f1eb;
+
+}
+
+#body {
+    background: #f5f1eb;
+    display: flex;
+
+}
+
+.container {
+    width: 950px;
+    margin: auto;
+    text-align: center;
+}
+
+.header_content {
+    font: 700 30px 'Cabin', sans-serif;
+    text-transform: uppercase;
+    margin: 20px 0 30px 0;
+    text-align: left;
+}
+
+.reg_form_item_label {
+    width: 190px;
+    text-align: left;
+    margin: 0 auto 5px auto;
+    padding-left: 5px;
+    font: 500 20px 'Quicksand', sans-serif;
+    color: #363636;
+}
+
+.reg_form_item {
+    width: 350px;
+    margin: 0 auto 10px auto;
+}
+
+
+.reg_form_input {
+    height: 25px;
+    width: 190px;
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid #707070;
+    border-radius: 10px;
+    background: #f8f4ee;
+
+    transition: background-color .3s linear;
+}
+
+.reg_form_input:focus {
+    background: #3b3b3b;
+    outline: none;
+    color: #ffffff;
+    border-color: #968573;
+}
+
+.age {
+    width: 55px;
+    text-align: left;
+}
+
+.age_position {
+    margin: 0 auto;
+    width: 190px;
+    text-align: left;
+}
+
+.reg_form_button {
+    margin-top: 10px;
+    outline: none;
+    height: 33px;
+    width: 110px;
+    border-radius: 15px;
+    background: #3b3b3b;
+    font: 500 16px 'Quicksand', sans-serif;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+
+    transition: background-color .3s linear,
+                color .2s linear;
+}
+
+.reg_form_button:hover {
+    color: #000000;
+    background: #f8f4ee;
+    border: 2px solid #3b3b3b;
+}
+
+.reg_form_button:active {
+    height: 35px;
+    width: 115px;
+}
+
+.button_position {
+    margin: 0 auto;
+    width: 190px;
+    text-align: right;
+}
+
+#store {
+    margin: 50px 0 0 0;
+    text-align: left;
+
+}
+
+.store {
+    text-decoration: none;
+    font: 500 35px 'Quicksand', sans-serif;
+    color: #363636;
+    transition: font-size .1s linear,
+                color .1s linear;
+    line-height: 1px;
+    vertical-align: middle;
+
+}
+
+.letter:hover {
+    font-size: 45px;
+    color: #ff0208;
+
+}
