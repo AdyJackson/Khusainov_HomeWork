@@ -3,10 +3,6 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
-
-}
-
-body {
     background: #f5f1eb;
 
 }
@@ -17,7 +13,7 @@ body {
 
 }
 
-.container {
+#container {
     width: 950px;
     margin: auto;
     text-align: center;
@@ -26,7 +22,7 @@ body {
 .header_content {
     font: 700 30px 'Cabin', sans-serif;
     text-transform: uppercase;
-    margin: 20px 0 30px 0;
+    margin: 20px 0 30px 10px;
     text-align: left;
 }
 
@@ -35,7 +31,7 @@ body {
     text-align: left;
     margin: 0 auto 5px auto;
     padding-left: 5px;
-    font: 500 20px 'Quicksand', sans-serif;
+    font: 400 20px 'Quicksand', sans-serif;
     color: #363636;
 }
 
@@ -56,6 +52,7 @@ body {
 
     transition: background-color .3s linear;
 }
+
 
 .reg_form_input:focus {
     background: #3b3b3b;
@@ -109,7 +106,7 @@ body {
 }
 
 #store {
-    margin: 50px 0 0 0;
+    margin: 50px 0 0 10px;
     text-align: left;
 
 }
@@ -128,5 +125,4 @@ body {
 .letter:hover {
     font-size: 45px;
     color: #ff0208;
-
 }
